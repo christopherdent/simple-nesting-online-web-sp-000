@@ -57,8 +57,8 @@ def dennis_ritchies_language
         }
      }
 
-  string = programmer_hash[:dennis_ritchie][:languages].to_s
-    string.chomp
+  array = programmer_hash[:dennis_ritchie][:languages].to_s
+    
 
 end
 
